@@ -16,6 +16,13 @@ html {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    color: white;
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 0;
 }
 
 .span {
@@ -23,7 +30,23 @@ html {
     grid-row: span 2;
 }
 
-.box1{background-image: url(/imagens/bg1.jpg);}
-.box2{background-image: url(/imagens/bg2.jpg);}
-.box3{background-image: url(/imagens/bg3.jpg);}
-.box4{background-image: url(/imagens/bg4.jpg);}
+.box1 {  
+    background: 
+    linear-gradient(rgba(0,0,0,0.486), rgba(0,0,0,0.486)),
+    url(/imagens/bg1.jpg);
+}
+.box2 {
+    background: 
+    linear-gradient(rgba(0,0,0,0.486), rgba(0,0,0,0.486)),
+    url(/imagens/bg2.jpg);
+}
+.box3 {
+    background: 
+    linear-gradient(rgba(0,0,0,0.486), rgba(0,0,0,0.486)),
+    url(/imagens/bg3.jpg);
+}
+.box4 {
+    background: 
+    linear-gradient(rgba(0,0,0,0.486), rgba(0,0,0,0.486)),
+    url(/imagens/bg4.jpg);
+}
