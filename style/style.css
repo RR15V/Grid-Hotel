@@ -11,8 +11,8 @@ html {
 }
 
 .container div {
-    min-height: 50rem;
-    min-width: 50rem;
+    height: auto;
+    width: auto;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
