@@ -1,0 +1,29 @@
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, auto);
+    gap: 2rem;
+}
+
+.container div {
+    min-height: 50rem;
+    min-width: 50rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.span {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.box1{background-image: url(/imagens/bg1.jpg);}
+.box2{background-image: url(/imagens/bg2.jpg);}
+.box3{background-image: url(/imagens/bg3.jpg);}
+.box4{background-image: url(/imagens/bg4.jpg);}
